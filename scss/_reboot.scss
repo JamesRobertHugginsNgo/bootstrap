@@ -47,7 +47,8 @@
 // 4. Change the default tap highlight to be completely transparent in iOS.
 
 // scss-docs-start reboot-body-rules
-body {
+body,
+:host {
   margin: 0; // 1
   font-family: var(--#{$prefix}body-font-family);
   @include font-size(var(--#{$prefix}body-font-size));
